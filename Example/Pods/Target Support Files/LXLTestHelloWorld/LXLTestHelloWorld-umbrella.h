@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "MBProgressHUD+Extension.h"
 #import "SettingTableViewBindActionModel.h"
 #import "SettingTableViewBindActionModelCell.h"
 

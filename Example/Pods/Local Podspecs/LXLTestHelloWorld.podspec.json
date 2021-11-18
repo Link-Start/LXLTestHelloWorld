@@ -1,22 +1,31 @@
 {
   "name": "LXLTestHelloWorld",
-  "version": "0.1.0",
-  "summary": "A short description of LXLTestHelloWorld.",
+  "version": "0.0.2",
+  "summary": "LXLTestHelloWorld",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/lxl/LXLTestHelloWorld",
+  "homepage": "https://github.com/Link-Start/LXLTestHelloWorld",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "lxl": "532471002@qq.com"
+    "Link-Start": "532471002@qq.com"
   },
   "source": {
-    "git": "https://github.com/lxl/LXLTestHelloWorld.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/Link-Start/LXLTestHelloWorld.git",
+    "tag": "0.0.2"
   },
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "LXLTestHelloWorld/Classes/**/*"
+  "subspecs": [
+    {
+      "name": "Setting",
+      "source_files": "LXLTestHelloWorld/Classes/**/*"
+    },
+    {
+      "name": "MBProgressHUD+Extension",
+      "source_files": "LXLTestHelloWorld/MBProgressHUD+Extension/**/*"
+    }
+  ]
 }

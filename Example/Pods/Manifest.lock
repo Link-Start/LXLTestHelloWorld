@@ -4,15 +4,22 @@ PODS:
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
-  - LXLTestHelloWorld (0.1.0)
+  - LXLTestHelloWorld (0.0.2):
+    - "LXLTestHelloWorld/MBProgressHUD+Extension (= 0.0.2)"
+    - LXLTestHelloWorld/Setting (= 0.0.2)
+  - "LXLTestHelloWorld/MBProgressHUD+Extension (0.0.2)"
+  - LXLTestHelloWorld/Setting (0.0.2)
+  - MBProgressHUD (1.2.0)
 
 DEPENDENCIES:
   - FBSnapshotTestCase
   - LXLTestHelloWorld (from `../`)
+  - MBProgressHUD
 
 SPEC REPOS:
   trunk:
     - FBSnapshotTestCase
+    - MBProgressHUD
 
 EXTERNAL SOURCES:
   LXLTestHelloWorld:
@@ -20,8 +27,9 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  LXLTestHelloWorld: 4fa9c2d4f4527de00685f805c7af43306cdaf394
+  LXLTestHelloWorld: 110ea29d0edb7c0bf5497914d76245535bfa60cf
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
 
-PODFILE CHECKSUM: 3aae2cb48aafe1718d0e805db53a8c708e58c429
+PODFILE CHECKSUM: 4fc27c9f1ce614e13d70802580154895d7bf0f5a
 
 COCOAPODS: 1.11.2

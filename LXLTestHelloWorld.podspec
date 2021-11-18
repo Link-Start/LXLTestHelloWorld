@@ -30,15 +30,19 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'LXLTestHelloWorld/Classes/**/*'
+  # s.source_files = 'LXLTestHelloWorld/Classes/**/*'
   
   # s.resource_bundles = {
   #   'LXLTestHelloWorld' => ['LXLTestHelloWorld/Assets/*.png']
   # }
 
-  s.subspec 'MBProgressHUD+Extension' do |ex|
-    ex.source_files = "LXLTestHelloWorld/MBProgressHUD+Extension/**/*.{h,m}"
-    ex.dependency "MBProgressHUD"
+  s.subspec 'Setting' do |set|
+    set.source_files = "LXLTestHelloWorld/Classes/**/*"
+  end
+
+  s.subspec 'MBProgressHUDExtension' do |ex|
+    ex.source_files = "LXLTestHelloWorld/MBProgressHUD+Extension/**/*"
+    ex.dependency 'MBProgressHUD', '~> 1.2.0'
   end
 
   # s.public_header_files = 'Pod/Classes/**/*.h'

@@ -7,6 +7,7 @@
 //
 
 #import "LXLViewController.h"
+#import <MBProgressHUD.h>
 
 @interface LXLViewController ()
 
