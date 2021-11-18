@@ -1,0 +1,6 @@
+framework module LXLTestHelloWorld {
+  umbrella header "LXLTestHelloWorld-umbrella.h"
+
+  export *
+  module * { export * }
+}

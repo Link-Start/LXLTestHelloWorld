@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - LXLTestHelloWorld (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - LXLTestHelloWorld (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  LXLTestHelloWorld:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  LXLTestHelloWorld: 4fa9c2d4f4527de00685f805c7af43306cdaf394
+
+PODFILE CHECKSUM: 3aae2cb48aafe1718d0e805db53a8c708e58c429
+
+COCOAPODS: 1.11.2
