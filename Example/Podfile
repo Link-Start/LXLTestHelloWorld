@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'LXLTestHelloWorld_Example' do
+  pod 'LXLTestHelloWorld', :path => '../'
+
+  target 'LXLTestHelloWorld_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
