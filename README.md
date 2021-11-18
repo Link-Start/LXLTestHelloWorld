@@ -22,7 +22,7 @@ pod 'LXLTestHelloWorld'
 
 ## Author
 
-lxl, 532471002@qq.com
+Link_Start
 
 ## License
 
